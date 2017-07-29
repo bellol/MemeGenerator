@@ -1,6 +1,7 @@
 package com.bellng.memegenerator.di
 
-import com.bellng.memegenerator.ui.GenerateMemeViewModel
+import com.bellng.memegenerator.ui.generatememe.GenerateMemeViewModel
+import com.bellng.memegenerator.ui.viewmeme.ViewMemeViewModel
 import com.bellng.memegenerator.viewmodel.ViewModelFactory
 import dagger.Component
 import javax.inject.Singleton
@@ -14,4 +15,5 @@ import javax.inject.Singleton
 interface AppComponent {
     fun getViewModelFactory(): ViewModelFactory
     fun getGenerateMemeViewModel(): GenerateMemeViewModel
+    fun getViewMemeViewModel(): ViewMemeViewModel
 }

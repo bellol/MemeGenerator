@@ -2,6 +2,7 @@ package com.bellng.memegenerator
 
 import android.app.Application
 import com.bellng.memegenerator.di.AppComponent
+import com.bellng.memegenerator.di.AppModule
 import com.bellng.memegenerator.di.DaggerAppComponent
 
 /**
@@ -15,6 +16,7 @@ class MemeGeneratorApplication : Application() {
         super.onCreate()
         appComponent = DaggerAppComponent
                 .builder()
+                .appModule(AppModule(this))
                 .build()
     }
 

@@ -4,7 +4,7 @@ import android.arch.lifecycle.ViewModel
 import android.arch.lifecycle.ViewModelProvider
 import android.support.v4.util.ArrayMap
 import com.bellng.memegenerator.di.AppComponent
-import com.bellng.memegenerator.ui.GenerateMemeViewModel
+import com.bellng.memegenerator.ui.generatememe.GenerateMemeViewModel
 
 /**
  * Created by bellng on 29/7/17.
