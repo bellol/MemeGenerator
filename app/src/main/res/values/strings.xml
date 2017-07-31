@@ -1,3 +1,1565 @@
 <resources>
     <string name="app_name">Meme Generator</string>
+
+    <string-array name="memes">
+        <item>10 Guy</item>
+
+        <item>1499848709152481048</item>
+
+        <item>1950s Middle Finger</item>
+
+        <item>1990s First World Problems</item>
+
+        <item>1st World Canadian Problems</item>
+
+        <item>2nd Term Obama</item>
+
+        <item>8la8jeP</item>
+
+        <item>Aaaaand Its Gone</item>
+
+        <item>Ace Primo</item>
+
+        <item>Actual Advice Mallard</item>
+
+        <item>Adalia Rose</item>
+
+        <item>Admiral Ackbar Relationship Expert</item>
+
+        <item>Advice Dog</item>
+
+        <item>Advice God</item>
+
+        <item>Advice Peeta</item>
+
+        <item>Advice Yoda</item>
+
+        <item>Aint Nobody Got Time For That</item>
+
+        <item>Alan Greenspan</item>
+
+        <item>Alarm Clock</item>
+
+        <item>Albert Cagestein</item>
+
+        <item>Albert Einstein 1</item>
+
+        <item>Alright Gentlemen We Need A New Idea</item>
+
+        <item>Alyssa Silent Hill</item>
+
+        <item>Am I The Only One Around Here</item>
+
+        <item>Ancient Aliens</item>
+
+        <item>And everybody loses their minds</item>
+
+        <item>Angry Asian</item>
+
+        <item>Angry Baby</item>
+
+        <item>Angry Birds Pig</item>
+
+        <item>Angry Bride</item>
+
+        <item>Angry Chef Gordon Ramsay</item>
+
+        <item>Angry Chicken Boss</item>
+
+        <item>Angry Dumbledore</item>
+
+        <item>Angry Koala</item>
+
+        <item>Angry Rant Randy</item>
+
+        <item>Angry Toddler</item>
+
+        <item>Annoying Childhood Friend</item>
+
+        <item>Annoying Facebook Girl</item>
+
+        <item>Anri Stares</item>
+
+        <item>Anti Joke Chicken</item>
+
+        <item>Apathetic Xbox Laser</item>
+
+        <item>Are Your Parents Brother And Sister</item>
+
+        <item>Are you a Wizard?</item>
+
+        <item>Arrogant Rich Man</item>
+
+        <item>Art Attack</item>
+
+        <item>Art Student Owl</item>
+
+        <item>Asshole Ref</item>
+
+        <item>Aunt Carol</item>
+
+        <item>Aw Yeah Rage Face</item>
+
+        <item>Awkward Olympics</item>
+
+        <item>BANE AND BRUCE</item>
+
+        <item>BM Employees</item>
+
+        <item>Babushkas On Facebook</item>
+
+        <item>Baby Cry</item>
+
+        <item>Baby Godfather</item>
+
+        <item>Back In My Day</item>
+
+        <item>Bad Advice Cat</item>
+
+        <item>Bad Joke Eel</item>
+
+        <item>Bad Luck Bear</item>
+
+        <item>Bad Luck Brian</item>
+
+        <item>Bad Luck Hannah</item>
+
+        <item>Bad Wife Worse Mom</item>
+
+        <item>Bah Humbug</item>
+
+        <item>Barack And Kumar 2013</item>
+
+        <item>Barba</item>
+
+        <item>Barbosa And Sparrow</item>
+
+        <item>Barney Stinson Win</item>
+
+        <item>Baromney</item>
+
+        <item>Baron Creater</item>
+
+        <item>Bart Simpson Peeking</item>
+
+        <item>Batman And Superman</item>
+
+        <item>Batman Slapping Robin</item>
+
+        <item>Batman Smiles</item>
+
+        <item>Bazooka Squirrel</item>
+
+        <item>Bear Grylls</item>
+
+        <item>Beard Baby</item>
+
+        <item>Bebo</item>
+
+        <item>Because Race Car</item>
+
+        <item>Benito</item>
+
+        <item>Beyonce Knowles Superbowl</item>
+
+        <item>Beyonce Knowles Superbowl Face</item>
+
+        <item>Beyonce Superbowl Yell</item>
+
+        <item>Big Bird</item>
+
+        <item>Big Bird And Mitt Romney</item>
+
+        <item>Big Bird And Snuffy</item>
+
+        <item>Big Ego Man</item>
+
+        <item>Big Family Comeback</item>
+
+        <item>Bill Murray Golf</item>
+
+        <item>Bill Nye The Science Guy</item>
+
+        <item>Bill OReilly</item>
+
+        <item>Billy Graham Mitt Romney</item>
+
+        <item>Blank Colored Background</item>
+
+        <item>Blank Yellow Sign</item>
+
+        <item>Blue Futurama Fry</item>
+
+        <item>Boardroom Meeting Suggestion</item>
+
+        <item>Bonobo Lyfe</item>
+
+        <item>Booty Warrior</item>
+
+        <item>Bothered Bond</item>
+
+        <item>Brace Yourselves X is Coming</item>
+
+        <item>Brian Burke On The Phone</item>
+
+        <item>Brian Griffin</item>
+
+        <item>Brian Wilson Vs ZZ Top</item>
+
+        <item>Britney Spears</item>
+
+        <item>Bubba And Barack</item>
+
+        <item>Buddy Christ</item>
+
+        <item>Buddy The Elf</item>
+
+        <item>Burn Kitty</item>
+
+        <item>Business Cat</item>
+
+        <item>Butthurt Dweller</item>
+
+        <item>CASHWAG Crew</item>
+
+        <item>CURLEY</item>
+
+        <item>Captain Hindsight</item>
+
+        <item>Captain Picard Facepalm</item>
+
+        <item>Casper</item>
+
+        <item>Castaway Fire</item>
+
+        <item>Cel Jesuno</item>
+
+        <item>Cereal Guy</item>
+
+        <item>Cereal Guy Spitting</item>
+
+        <item>Cereal Guys Daddy</item>
+
+        <item>Chad Johnson</item>
+
+        <item>Chainsaw Bear</item>
+
+        <item>Challenge Accepted Rage Face</item>
+
+        <item>Charlie Sheen Derp</item>
+
+        <item>Chavez</item>
+
+        <item>Chef Gordon Ramsay</item>
+
+        <item>Chemistry Cat</item>
+
+        <item>Chester The Cat</item>
+
+        <item>Chief Keef</item>
+
+        <item>Chocolate Spongebob</item>
+
+        <item>Chubby Bubbles Girl</item>
+
+        <item>Chuck Norris Approves</item>
+
+        <item>Chuckchuckchuck</item>
+
+        <item>City Bear</item>
+
+        <item>Cleavage Girl</item>
+
+        <item>Close Enough</item>
+
+        <item>College Freshman</item>
+
+        <item>College Liberal</item>
+
+        <item>Comic Book Guy</item>
+
+        <item>Computer Guy</item>
+
+        <item>Computer Guy Facepalm</item>
+
+        <item>Computer Horse</item>
+
+        <item>Condescending Goku</item>
+
+        <item>Condescending Wonka</item>
+
+        <item>Confession Bear</item>
+
+        <item>Confused Cam</item>
+
+        <item>Confused Gandalf</item>
+
+        <item>Confused Lebowski</item>
+
+        <item>Confused Mel Gibson</item>
+
+        <item>Conspiracy Keanu</item>
+
+        <item>Consuela</item>
+
+        <item>Contradictory Chris</item>
+
+        <item>Cool Obama</item>
+
+        <item>Cool Story Bro</item>
+
+        <item>Corona</item>
+
+        <item>Coulson</item>
+
+        <item>Courage Wolf</item>
+
+        <item>Crazy Dawg</item>
+
+        <item>Crazy Girlfriend Praying Mantis</item>
+
+        <item>Crazy Hispanic Man</item>
+
+        <item>Creeper Dog</item>
+
+        <item>Criana</item>
+
+        <item>Crosseyed Goku</item>
+
+        <item>Crying Because Of Cute</item>
+
+        <item>Cute Puppies</item>
+
+        <item>DJ Pauly D</item>
+
+        <item>Dafuq Did I Just Read</item>
+
+        <item>Dallas Cowboys</item>
+
+        <item>Dancing Trollmom</item>
+
+        <item>Darth Maul</item>
+
+        <item>Darti Boy</item>
+
+        <item>Dat Ass</item>
+
+        <item>Dating Site Murderer</item>
+
+        <item>Dead Space</item>
+
+        <item>Deadpool Pick Up Lines</item>
+
+        <item>Depressed Cat</item>
+
+        <item>Depression Dog</item>
+
+        <item>Derp</item>
+
+        <item>Derpina</item>
+
+        <item>Determined Guy Rage Face</item>
+
+        <item>Dexter</item>
+
+        <item>Dick Cheney</item>
+
+        <item>Disappointed Tyson</item>
+
+        <item>Disaster Girl</item>
+
+        <item>Do I Care Doe</item>
+
+        <item>Dolph Ziggler Sells</item>
+
+        <item>Dont You Squidward</item>
+
+        <item>DoucheBag DJ</item>
+
+        <item>Doug</item>
+
+        <item>Down Syndrome</item>
+
+        <item>Downcast Dark Souls</item>
+
+        <item>Downvoting Roman</item>
+
+        <item>Dr Crane</item>
+
+        <item>Dr Evil</item>
+
+        <item>Dr Evil Laser</item>
+
+        <item>Drunk Baby</item>
+
+        <item>Duck Face</item>
+
+        <item>Duck Face Chicks</item>
+
+        <item>Dwight Schrute</item>
+
+        <item>Dwight Schrute 2</item>
+
+        <item>ERMAHGERD TWERLERT</item>
+
+        <item>Edu Camargo</item>
+
+        <item>Edward Elric 1</item>
+
+        <item>Efrain Juarez</item>
+
+        <item>Eighties Teen</item>
+
+        <item>Eminem</item>
+
+        <item>Empty Red And Black</item>
+
+        <item>Endel Tulviste</item>
+
+        <item>Engineering Professor</item>
+
+        <item>Epicurist Kid</item>
+
+        <item>Ermahgerd Berks</item>
+
+        <item>Ermahgerd Beyonce</item>
+
+        <item>Ermahgerd IPHERN 3GM</item>
+
+        <item>Error 404</item>
+
+        <item>Evil Cows</item>
+
+        <item>Evil Otter</item>
+
+        <item>Evil Plotting Raccoon</item>
+
+        <item>Evil Toddler</item>
+
+        <item>Eye Of Sauron</item>
+
+        <item>FFFFFFFUUUUUUUUUUUU</item>
+
+        <item>FRANGO</item>
+
+        <item>Fabulous Frank And His Snake</item>
+
+        <item>Facepalm Bear</item>
+
+        <item>Fake Hurricane Guy</item>
+
+        <item>Family Guy Brian</item>
+
+        <item>Family Guy Peter</item>
+
+        <item>Family Tech Support Guy</item>
+
+        <item>Fast Furious Johnny Tran</item>
+
+        <item>Fat Cat</item>
+
+        <item>Fat Val Kilmer</item>
+
+        <item>Father Ted</item>
+
+        <item>Fear And Loathing Cat</item>
+
+        <item>Feels Bad Frog - Feels Bad Man</item>
+
+        <item>Felix Baumgartner</item>
+
+        <item>Felix Baumgartner Lulz</item>
+
+        <item>Fernando Litre</item>
+
+        <item>Fifa E Call Of Duty</item>
+
+        <item>Fim De Semana</item>
+
+        <item>Fini</item>
+
+        <item>Finn The Human</item>
+
+        <item>First Day On The Internet Kid</item>
+
+        <item>First World Frat Guy</item>
+
+        <item>First World Problems</item>
+
+        <item>First World Problems Cat</item>
+
+        <item>First World Stoner Problems</item>
+
+        <item>Fk Yeah</item>
+
+        <item>Flavor Flav</item>
+
+        <item>Foal Of Mine</item>
+
+        <item>Folean Dynamite</item>
+
+        <item>Forever Alone</item>
+
+        <item>Forever Alone Christmas</item>
+
+        <item>Forever Alone Happy</item>
+
+        <item>Foul Bachelor Frog</item>
+
+        <item>Foul Bachelorette Frog</item>
+
+        <item>Friend Zone Fiona</item>
+
+        <item>Frowning Nun</item>
+
+        <item>Frustrated Boromir</item>
+
+        <item>Frustrating Mom</item>
+
+        <item>Futurama Fry</item>
+
+        <item>Futurama Leela</item>
+
+        <item>Futurama Zoidberg</item>
+
+        <item>Gaga Baby</item>
+
+        <item>Gandhi</item>
+
+        <item>Gangnam Style</item>
+
+        <item>Gangnam Style PSY</item>
+
+        <item>Gangnam Style2</item>
+
+        <item>Gangster Baby</item>
+
+        <item>Gasp Rage Face</item>
+
+        <item>George Bush</item>
+
+        <item>George Washington</item>
+
+        <item>Ghetto Jesus</item>
+
+        <item>Ghost Nappa</item>
+
+        <item>Giovanni Vernia</item>
+
+        <item>Give me Karma - Beating the dead horse</item>
+
+        <item>Gladys Falcon</item>
+
+        <item>Gollum</item>
+
+        <item>Good Guy Greg</item>
+
+        <item>Good Guy Pizza Rolls</item>
+
+        <item>Good Guy Socially Awkward Penguin</item>
+
+        <item>Google Chrome</item>
+
+        <item>Gordo</item>
+
+        <item>Got Room For One More</item>
+
+        <item>Gotta Go Cat</item>
+
+        <item>Grandma Finds The Internet</item>
+
+        <item>Green Day</item>
+
+        <item>Grumpy Cat</item>
+
+        <item>Grumpy Cat Bed</item>
+
+        <item>Grumpy Cat Christmas</item>
+
+        <item>Grumpy Cat Does Not Believe</item>
+
+        <item>Grumpy Cat Mistletoe</item>
+
+        <item>Grumpy Cat Reverse</item>
+
+        <item>Grumpy Cat Sky</item>
+
+        <item>Grumpy Cat Table</item>
+
+        <item>Grumpy Cat Top Hat</item>
+
+        <item>Grumpy Cats Father</item>
+
+        <item>Grumpy Toad</item>
+
+        <item>Guinness World Record</item>
+
+        <item>Guy Fawkes</item>
+
+        <item>Hal Jordan</item>
+
+        <item>Hamtaro</item>
+
+        <item>Happy Guy Rage Face</item>
+
+        <item>Happy Minaj</item>
+
+        <item>Happy Minaj 2</item>
+
+        <item>Happy Star Congratulations</item>
+
+        <item>Hardworking Guy</item>
+
+        <item>Harmless Scout Leader</item>
+
+        <item>Harper WEF</item>
+
+        <item>Harry Potter Ok</item>
+
+        <item>Hawkward</item>
+
+        <item>He Needs The Vaccine</item>
+
+        <item>He Will Never Get A Girlfriend</item>
+
+        <item>Headbanzer</item>
+
+        <item>Headless Rider DRRR</item>
+
+        <item>Hedonism Bot</item>
+
+        <item>Hello Kassem</item>
+
+        <item>Helpful Tyler Durden</item>
+
+        <item>Henry David Thoreau</item>
+
+        <item>Hercules Hades</item>
+
+        <item>Heres Johnny</item>
+
+        <item>Herm Edwards</item>
+
+        <item>Hide Yo Kids Hide Yo Wife</item>
+
+        <item>High Dog</item>
+
+        <item>High Expectations Asian Father</item>
+
+        <item>Hipster Ariel</item>
+
+        <item>Hipster Barista</item>
+
+        <item>Hipster Kitty</item>
+
+        <item>Hohoho</item>
+
+        <item>Homophobic Seal</item>
+
+        <item>Hoody Cat</item>
+
+        <item>Hora Extra</item>
+
+        <item>Hornist Hamster</item>
+
+        <item>Horny Harry</item>
+
+        <item>Hot Caleb</item>
+
+        <item>Hot Scale</item>
+
+        <item>Hotline Miami Richard</item>
+
+        <item>House Bunny</item>
+
+        <item>How About No Bear</item>
+
+        <item>How Tough Are You</item>
+
+        <item>Hypnotoad</item>
+
+        <item>Hypocritical Islam Terrorist</item>
+
+        <item>Hysterical Tom</item>
+
+        <item>I Am Not A Gator Im A X</item>
+
+        <item>I Forsee</item>
+
+        <item>I Have No Idea What I Am Doing</item>
+
+        <item>I Know Fuck Me Right</item>
+
+        <item>I Lied 2</item>
+
+        <item>I See Dead People</item>
+
+        <item>I Should Buy A Boat Cat</item>
+
+        <item>I Too Like To Live Dangerously</item>
+
+        <item>I Will Find You And Kill You</item>
+
+        <item>Idiot Nerd Girl</item>
+
+        <item>Idiotaco</item>
+
+        <item>If You Know What I Mean Bean</item>
+
+        <item>Ill Have You Know Spongebob</item>
+
+        <item>Ill Just Wait Here</item>
+
+        <item>Im Curious Nappa</item>
+
+        <item>Im Fabulous Adam</item>
+
+        <item>Imagination Spongebob</item>
+
+        <item>Impossibru Guy Original</item>
+
+        <item>Inception</item>
+
+        <item>Innocent Sasha</item>
+
+        <item>Insanity Puppy</item>
+
+        <item>Insanity Wolf</item>
+
+        <item>Intelligent Dog</item>
+
+        <item>Internet Explorer</item>
+
+        <item>Internet Guide</item>
+
+        <item>Interupting Kanye</item>
+
+        <item>Invalid Argument Vader</item>
+
+        <item>Islam Rage - Angry Muslim</item>
+
+        <item>Its Finally Over</item>
+
+        <item>Jack Sparrow Being Chased</item>
+
+        <item>Jackie Chan WTF</item>
+
+        <item>Jammin Baby</item>
+
+        <item>Jay Knows Facts</item>
+
+        <item>Jehovas Witness Squirrel</item>
+
+        <item>Jerkoff Javert</item>
+
+        <item>Jersey Santa</item>
+
+        <item>Jessica Nigri Cosplay</item>
+
+        <item>Jesus Talking To Cool Dude</item>
+
+        <item>Jim Lehrer The Man</item>
+
+        <item>Joe Biden</item>
+
+        <item>John Riley Condescension</item>
+
+        <item>Joker Rainbow Hands</item>
+
+        <item>Jon Stewart Skeptical</item>
+
+        <item>Joo Espontneo</item>
+
+        <item>Joseph Ducreux</item>
+
+        <item>Justin Bieber Suit</item>
+
+        <item>Karate Kyle</item>
+
+        <item>Keep Calm And Carry On Aqua</item>
+
+        <item>Keep Calm And Carry On Purple</item>
+
+        <item>Keep Calm And Carry On Red</item>
+
+        <item>Kevin Hart The Hell</item>
+
+        <item>Kill You Cat</item>
+
+        <item>Kill Yourself Guy</item>
+
+        <item>Kim Jong Il Y U No</item>
+
+        <item>Kim Jong Un Sad</item>
+
+        <item>Koala</item>
+
+        <item>Kobe</item>
+
+        <item>Kool Kid Klan</item>
+
+        <item>Kyon Face Palm</item>
+
+        <item>LIGAF</item>
+
+        <item>LOL Guy</item>
+
+        <item>Lame Pun Coon</item>
+
+        <item>Larfleeze</item>
+
+        <item>Larry The Cable Guy</item>
+
+        <item>Laughing Men In Suits</item>
+
+        <item>Laughing Villains</item>
+
+        <item>Laundry Viking</item>
+
+        <item>Lazy College Senior</item>
+
+        <item>Legal Bill Murray</item>
+
+        <item>Lethal Weapon Danny Glover</item>
+
+        <item>Lewandowski E Reus</item>
+
+        <item>Liam Neeson Taken</item>
+
+        <item>Life Sucks</item>
+
+        <item>Lighthouse</item>
+
+        <item>Lil Wayne</item>
+
+        <item>Lion King</item>
+
+        <item>Little Romney</item>
+
+        <item>Look At All These</item>
+
+        <item>Luiz Fabiano</item>
+
+        <item>Macklemore Thrift Store</item>
+
+        <item>Mad Money Jim Cramer</item>
+
+        <item>Mad Moxxi</item>
+
+        <item>Malicious Advice Mallard</item>
+
+        <item>Mamimoe</item>
+
+        <item>Manning Broncos</item>
+
+        <item>Mario Hammer Smash</item>
+
+        <item>Maroney And Obama Not Impressed</item>
+
+        <item>Matanza</item>
+
+        <item>Matrix Morpheus</item>
+
+        <item>Mayu Watanabe</item>
+
+        <item>McKayla Maroney Not Impressed</item>
+
+        <item>McKayla Maroney Not Impressed2</item>
+
+        <item>McMelch</item>
+
+        <item>Mega Rage Face</item>
+
+        <item>Meme Dad Creature</item>
+
+        <item>Memeo</item>
+
+        <item>Men Laughing</item>
+
+        <item>Merida Brave</item>
+
+        <item>Metal Jesus</item>
+
+        <item>Mexican Pizza</item>
+
+        <item>Minegishi Minami</item>
+
+        <item>Minegishi Minami2</item>
+
+        <item>Misunderstood Mitch</item>
+
+        <item>Mitch McConnell</item>
+
+        <item>Modern Warfare 3</item>
+
+        <item>Molly Weasley</item>
+
+        <item>Money Man</item>
+
+        <item>Money Money</item>
+
+        <item>Monkey Business</item>
+
+        <item>Monkey OOH</item>
+
+        <item>Morgan Freeman Good Luck</item>
+
+        <item>Mother Of God</item>
+
+        <item>Mozart Not Sure</item>
+
+        <item>Mr Black Knows Everything</item>
+
+        <item>Mr Mackey</item>
+
+        <item>Mr T</item>
+
+        <item>Mr T Pity The Fool</item>
+
+        <item>Murica</item>
+
+        <item>Muschamp</item>
+
+        <item>Musically Oblivious 8th Grader</item>
+
+        <item>Nabilah Jkt48</item>
+
+        <item>Nailed It</item>
+
+        <item>Nakagawa Haruka</item>
+
+        <item>Natsu</item>
+
+        <item>Neil deGrasse Tyson</item>
+
+        <item>Net Noob</item>
+
+        <item>Nice Guy Loki</item>
+
+        <item>Nickleback</item>
+
+        <item>Nicolas Cage - You don\'t say</item>
+
+        <item>Nilo</item>
+
+        <item>Nissim Ourfali</item>
+
+        <item>No I Cant Obama</item>
+
+        <item>No Nappa Its A Trick</item>
+
+        <item>No Patrick</item>
+
+        <item>Not Bad Obama</item>
+
+        <item>Not Okay Rage Face</item>
+
+        <item>Not a Meme, Just Boobs</item>
+
+        <item>Nuclear Explosion</item>
+
+        <item>OMG Karen</item>
+
+        <item>Obama</item>
+
+        <item>Obama Cowboy Hat</item>
+
+        <item>Obama Romney Pointing</item>
+
+        <item>Obi Wan Kenobi</item>
+
+        <item>Oblivious Hot Girl</item>
+
+        <item>Officer Cartman</item>
+
+        <item>Oh My God Orange</item>
+
+        <item>Oh No</item>
+
+        <item>Okay Guy Rage Face</item>
+
+        <item>Okay Guy Rage Face2</item>
+
+        <item>Okay Truck</item>
+
+        <item>Oku Manami</item>
+
+        <item>Onde</item>
+
+        <item>One Does Not Simply</item>
+
+        <item>Optimistic Niall</item>
+
+        <item>Ordinary Muslim Man</item>
+
+        <item>Original Bad Luck Brian</item>
+
+        <item>Original I Lied</item>
+
+        <item>Original Stoner Dog</item>
+
+        <item>Osabama</item>
+
+        <item>Our Glorious Leader Nicolas Cage</item>
+
+        <item>Over Educated Problems</item>
+
+        <item>Overjoyed</item>
+
+        <item>Overly Attached Father</item>
+
+        <item>Overly Attached Girlfriend</item>
+
+        <item>Overly Attached Nicolas Cage</item>
+
+        <item>Overly Manly Man</item>
+
+        <item>PTSD Clarinet Boy</item>
+
+        <item>Packers</item>
+
+        <item>Papa Fking John</item>
+
+        <item>Paranoid Parrot</item>
+
+        <item>Pat Quinn</item>
+
+        <item>Pathetic Spidey</item>
+
+        <item>Patrick Henry</item>
+
+        <item>Patrick Says</item>
+
+        <item>Patriotic Eagle</item>
+
+        <item>Paul Ryan</item>
+
+        <item>Paul Wonder Years</item>
+
+        <item>Pedobear</item>
+
+        <item>Pedophile Orochimaru</item>
+
+        <item>Penguin Gang</item>
+
+        <item>Pepperidge Farm Remembers</item>
+
+        <item>Permission Bane</item>
+
+        <item>Perturbed Portman</item>
+
+        <item>Peter Griffin News</item>
+
+        <item>Peter Parker Cry</item>
+
+        <item>Philosoraptor</item>
+
+        <item>Photogenic Scene Guy</item>
+
+        <item>Picard Wtf</item>
+
+        <item>Pickup Line Panda</item>
+
+        <item>Pickup Master</item>
+
+        <item>Pickup Professor</item>
+
+        <item>Pillow Pet</item>
+
+        <item>Pink Escalade</item>
+
+        <item>Pissed Off Obama</item>
+
+        <item>Police Officer Testifying</item>
+
+        <item>Pony Shrugs</item>
+
+        <item>Pope Nicolas Cage</item>
+
+        <item>Portuguese</item>
+
+        <item>Pothead Fry</item>
+
+        <item>Predator</item>
+
+        <item>Premature Pete</item>
+
+        <item>Priority Peter</item>
+
+        <item>Professor Oak</item>
+
+        <item>Proper Lady</item>
+
+        <item>Psy Horse Dance</item>
+
+        <item>Put It Somewhere Else Patrick</item>
+
+        <item>Question Rage Face</item>
+
+        <item>Questionable Strategy Kobe</item>
+
+        <item>Quit Hatin</item>
+
+        <item>RPG Fan</item>
+
+        <item>Rarity</item>
+
+        <item>Rasta Science Teacher</item>
+
+        <item>Really Evil College Teacher</item>
+
+        <item>Rebecca Black</item>
+
+        <item>Redditors Wife</item>
+
+        <item>Rediculously Well Mannered Athlete</item>
+
+        <item>Redneck Randal</item>
+
+        <item>Reimu Hakurei</item>
+
+        <item>Relaxed Office Guy</item>
+
+        <item>Religious Couple</item>
+
+        <item>Rena Matsui</item>
+
+        <item>Rich Guy Dont Care</item>
+
+        <item>Rich Raven</item>
+
+        <item>Richard Benson</item>
+
+        <item>Rick Grimes</item>
+
+        <item>Ridiculously Photogenic Guy</item>
+
+        <item>Ridiculously Photogenic Judge</item>
+
+        <item>Right In The Childhood</item>
+
+        <item>Rmoney Again</item>
+
+        <item>Rob In The Hood</item>
+
+        <item>Robots</item>
+
+        <item>Rocket Raccoon</item>
+
+        <item>Rodgers Doublecheck</item>
+
+        <item>Romney</item>
+
+        <item>Romney And Ryan</item>
+
+        <item>Romney Bong</item>
+
+        <item>Romneys Hindenberg</item>
+
+        <item>Ron Burgundy</item>
+
+        <item>Ron Swanson</item>
+
+        <item>Ryan Gosling</item>
+
+        <item>Sad Axl</item>
+
+        <item>Sad Baby</item>
+
+        <item>Sad Cat</item>
+
+        <item>Sad Keanu</item>
+
+        <item>Sad Spiderman</item>
+
+        <item>Sad X All The Y</item>
+
+        <item>Sadly I Am Only An Eel</item>
+
+        <item>Samuel Jackson Glance</item>
+
+        <item>Samuel L Jackson</item>
+
+        <item>Sarcastic Anthony</item>
+
+        <item>Sassy Iguana</item>
+
+        <item>Saw Fulla</item>
+
+        <item>Say That Again I Dare You</item>
+
+        <item>Scary Harry</item>
+
+        <item>Scene Wolf</item>
+
+        <item>Scooby Doo</item>
+
+        <item>Scott Howson</item>
+
+        <item>Screen Shot 2017-07-01 at 6</item>
+
+        <item>Scrooge McDuck</item>
+
+        <item>Scrooge McDuck 2</item>
+
+        <item>Scumbag Brain</item>
+
+        <item>Scumbag Daylight Savings Time</item>
+
+        <item>Scumbag Girl</item>
+
+        <item>Scumbag MSNBC</item>
+
+        <item>Scumbag Minecraft</item>
+
+        <item>Scumbag Miraak</item>
+
+        <item>Scumbag Muslim</item>
+
+        <item>Scumbag Parents</item>
+
+        <item>Scumbag Redditor</item>
+
+        <item>Scumbag Steve</item>
+
+        <item>Secure Parking</item>
+
+        <item>Self Loathing Otter</item>
+
+        <item>Selfish Ozzy</item>
+
+        <item>Sergeant Hartmann</item>
+
+        <item>Serious Xzibit</item>
+
+        <item>Seriously Face</item>
+
+        <item>Sexual Deviant Walrus</item>
+
+        <item>Sexually Oblivious Girlfriend</item>
+
+        <item>Sexually Oblivious Rhino</item>
+
+        <item>Sexy Railroad Spiderman</item>
+
+        <item>Shaq Only Smokes The Dankest</item>
+
+        <item>Sheltering Suburban Mom</item>
+
+        <item>Shocked Ape</item>
+
+        <item>Shouter</item>
+
+        <item>Shut Up And Take My Money Fry</item>
+
+        <item>Shutup Batty Boy</item>
+
+        <item>Sidious Error</item>
+
+        <item>Sigmund Freud</item>
+
+        <item>Simba Shadowy Place</item>
+
+        <item>Simpsons Grandpa</item>
+
+        <item>Simsimi</item>
+
+        <item>Since When Were You Under The Impression</item>
+
+        <item>Sinestro</item>
+
+        <item>Skeptical Baby</item>
+
+        <item>Skeptical Swardson</item>
+
+        <item>Skinhead John Travolta</item>
+
+        <item>Skype</item>
+
+        <item>Slenderman</item>
+
+        <item>Slick Fry</item>
+
+        <item>Slowpoke</item>
+
+        <item>Small Face Romney</item>
+
+        <item>Smilin Biden</item>
+
+        <item>Smiling Jesus</item>
+
+        <item>Smirk Rage Face</item>
+
+        <item>Snape</item>
+
+        <item>So God Made A Farmer</item>
+
+        <item>So I Guess You Can Say Things Are Getting Pretty Serious</item>
+
+        <item>So Many Shirts</item>
+
+        <item>So Much Drama</item>
+
+        <item>Socially Awesome Awkward Penguin</item>
+
+        <item>Socially Awesome Penguin</item>
+
+        <item>Socially Awkward Awesome Penguin</item>
+
+        <item>Socially Awkward Couple</item>
+
+        <item>Socially Awkward Penguin</item>
+
+        <item>Solemn Lumberjack</item>
+
+        <item>Sotally Tober</item>
+
+        <item>South Park Craig</item>
+
+        <item>Spacey Casey</item>
+
+        <item>Spangles</item>
+
+        <item>Sparta Leonidas</item>
+
+        <item>Speechless Colbert Face</item>
+
+        <item>Spiderman Camera</item>
+
+        <item>Spiderman Computer Desk</item>
+
+        <item>Spiderman Hospital</item>
+
+        <item>Spiderman Laugh</item>
+
+        <item>Spiderman Peter Parker</item>
+
+        <item>Squidward</item>
+
+        <item>Stephen Harper Podium</item>
+
+        <item>Steve Harvey</item>
+
+        <item>Steve Jobs</item>
+
+        <item>Stoner Dog</item>
+
+        <item>Stoner PhD</item>
+
+        <item>Stop Cop</item>
+
+        <item>Storytelling Grandpa</item>
+
+        <item>Subtle Pickup Liner</item>
+
+        <item>Success Kid</item>
+
+        <item>Success Kid Girl</item>
+
+        <item>Success Kid Original</item>
+
+        <item>Successful Black Man</item>
+
+        <item>Sudden Clarity Clarence</item>
+
+        <item>Sudden Disgust Danny</item>
+
+        <item>Super Birthday Squirrel</item>
+
+        <item>Super Cool Ski Instructor</item>
+
+        <item>Super Kami Guru Allows This</item>
+
+        <item>Superior Wadsworth</item>
+
+        <item>Surpised Frodo</item>
+
+        <item>Surprised CatMan</item>
+
+        <item>Surprised Coala</item>
+
+        <item>Surprised Koala</item>
+
+        <item>Surprized Vegeta</item>
+
+        <item>Suspicious Cat</item>
+
+        <item>Sweaty Concentrated Rage Face</item>
+
+        <item>TED</item>
+
+        <item>TSA Douche</item>
+
+        <item>Table Flip Guy</item>
+
+        <item>Take A Seat Cat</item>
+
+        <item>Talk To Spongebob</item>
+
+        <item>Tamou</item>
+
+        <item>Team Rocket</item>
+
+        <item>Tears Of Joy</item>
+
+        <item>Tech Impaired Duck</item>
+
+        <item>Tennis Defeat</item>
+
+        <item>That Would Be Great</item>
+
+        <item>The Bobs</item>
+
+        <item>The Critic</item>
+
+        <item>The Most Interesting Cat In The World</item>
+
+        <item>The Most Interesting Justin Bieber</item>
+
+        <item>The Most Interesting Man In The World</item>
+
+        <item>The Probelm Is</item>
+
+        <item>The Rock Driving</item>
+
+        <item>The Rock It Doesnt Matter</item>
+
+        <item>These Arent The Droids You Were Looking For</item>
+
+        <item>Third World Skeptical Kid</item>
+
+        <item>Third World Success Kid</item>
+
+        <item>Time To Fap</item>
+
+        <item>Tom Hardy </item>
+
+        <item>Tomas Rosicky</item>
+
+        <item>Too Damn High</item>
+
+        <item>Too Drunk At Party Tina</item>
+
+        <item>Too Kool Kyle</item>
+
+        <item>Torreshit</item>
+
+        <item>Tough Guy Wanna Be</item>
+
+        <item>Trailer Park Boys Bubbles</item>
+
+        <item>Travelonshark</item>
+
+        <item>Troll Face</item>
+
+        <item>Troll Face Colored</item>
+
+        <item>True Story</item>
+
+        <item>Turkey</item>
+
+        <item>USA Lifter</item>
+
+        <item>Ugly Twins</item>
+
+        <item>Unhappy Baby</item>
+
+        <item>Unhelpful High School Teacher</item>
+
+        <item>Unicorn MAN</item>
+
+        <item>Unpopular Opinion Puffin</item>
+
+        <item>Unwanted House Guest</item>
+
+        <item>V For Vendetta</item>
+
+        <item>Vali Corleone</item>
+
+        <item>Vengeance Dad</item>
+
+        <item>Viking Dudes</item>
+
+        <item>Vladimir Putin</item>
+
+        <item>WTF</item>
+
+        <item>Warning Sign</item>
+
+        <item>We Will Rebuild</item>
+
+        <item>Welcome To The Internets</item>
+
+        <item>Well That Escalated Quickly</item>
+
+        <item>What Year Is It</item>
+
+        <item>Whisper Sloth</item>
+
+        <item>Why Cant I</item>
+
+        <item>Why Is The Rum Gone</item>
+
+        <item>Why Not Both</item>
+
+        <item>Will Ferrell</item>
+
+        <item>Woah Kitty</item>
+
+        <item>Wrong Neighboorhood Cats</item>
+
+        <item>Wrong Number Rita</item>
+
+        <item>X All The Y</item>
+
+        <item>X, X Everywhere</item>
+
+        <item>Y U No</item>
+
+        <item>Yakuza</item>
+
+        <item>Yao Ming</item>
+
+        <item>Yo Dawg Heard You</item>
+
+        <item>Yo Mamas So Fat</item>
+
+        <item>You Don\'t Say</item>
+
+        <item>You Dont Want No Part Of This</item>
+
+        <item>You Get An X And You Get An X</item>
+
+        <item>You Should Feel Bad Zoidberg</item>
+
+        <item>You Underestimate My Power</item>
+
+        <item>Young And Reckless</item>
+
+        <item>Youre Too Slow Sonic</item>
+
+        <item>Yuko With Gun</item>
+
+        <item>ZNMD</item>
+
+        <item>Zoidberg Jesus</item>
+
+        <item>Zombie Bad Luck Brian</item>
+
+        <item>Zombie Overly Attached Girlfriend</item>
+
+        <item>Zorg</item>
+
+        <item>Zuckerberg</item>
+
+        <item>Zura Janai Katsura Da</item>
+
+        <item>confession kid</item>
+
+        <item>edd7006d57a8e104674e59b74b263d13</item>
+
+        <item>kavi_3</item>
+
+        <item>wallpaper</item>
+    </string-array>
 </resources>

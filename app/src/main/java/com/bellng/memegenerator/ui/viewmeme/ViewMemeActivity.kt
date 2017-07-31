@@ -33,7 +33,7 @@ class ViewMemeActivity : AppCompatActivity() {
                     }
 
                     override fun onError() {
-
+                        progress_bar.visibility = View.GONE
                     }
                 })
     }

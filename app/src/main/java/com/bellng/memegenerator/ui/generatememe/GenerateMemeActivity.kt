@@ -3,6 +3,7 @@ package com.bellng.memegenerator.ui.generatememe
 import android.arch.lifecycle.ViewModelProviders
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.widget.ArrayAdapter
 import com.bellng.memegenerator.MemeGeneratorApplication
 import com.bellng.memegenerator.R
 import com.bellng.memegenerator.ui.viewmeme.ViewMemeActivity
@@ -10,6 +11,7 @@ import com.jakewharton.rxbinding2.view.clicks
 import com.jakewharton.rxbinding2.widget.textChangeEvents
 import io.reactivex.disposables.CompositeDisposable
 import kotlinx.android.synthetic.main.activity_generate_meme.*
+
 
 class GenerateMemeActivity : AppCompatActivity() {
 
@@ -21,6 +23,9 @@ class GenerateMemeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_generate_meme)
+        val adapter = ArrayAdapter(this, R.layout.support_simple_spinner_dropdown_item, resources.getStringArray(R.array.memes))
+        searchable_spinner.adapter = adapter
+        searchable_spinner.setPositiveButton("OK")
     }
 
     override fun onResume() {
@@ -30,13 +35,6 @@ class GenerateMemeActivity : AppCompatActivity() {
                 viewModel.showViewMemeScreen()
                         .subscribe
                         { url -> startActivity(ViewMemeActivity.createIntent(this, url)) },
-                meme_name.textChangeEvents()
-                        .subscribe { event ->
-                            when (event.text().isNullOrEmpty()) {
-                                true -> meme_name.hint = "meme name"
-                                else -> meme_name.hint = ""
-                            }
-                        },
                 top_text.textChangeEvents()
                         .subscribe { event ->
                             when (event.text().isNullOrEmpty()) {
@@ -52,7 +50,19 @@ class GenerateMemeActivity : AppCompatActivity() {
                             }
                         },
                 generate_button.clicks()
-                        .map { _ -> "http://apimeme.com/meme?meme=${meme_name.text}&top=${top_text.text}&bottom=${bottom_text.text}".replace(" ", "+") }
+                        .map { _ ->
+                            var url = "http://apimeme.com/meme?meme=${searchable_spinner.selectedItem}"
+
+                            if (top_text.text.toString().isNotEmpty()) {
+                                url += "&top=${top_text.text}"
+                            }
+
+                            if (bottom_text.text.toString().isNotEmpty()) {
+                                url += "&bottom=${bottom_text.text}"
+                            }
+
+                            url.replace(" ", "+")
+                        }
                         .subscribe(viewModel::onGenerateButtonClicked))
     }
 
