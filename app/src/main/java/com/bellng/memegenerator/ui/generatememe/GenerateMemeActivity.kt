@@ -7,6 +7,7 @@ import com.bellng.memegenerator.MemeGeneratorApplication
 import com.bellng.memegenerator.R
 import com.bellng.memegenerator.ui.viewmeme.ViewMemeActivity
 import com.jakewharton.rxbinding2.view.clicks
+import com.jakewharton.rxbinding2.widget.textChangeEvents
 import io.reactivex.disposables.CompositeDisposable
 import kotlinx.android.synthetic.main.activity_generate_meme.*
 
@@ -29,8 +30,28 @@ class GenerateMemeActivity : AppCompatActivity() {
                 viewModel.showViewMemeScreen()
                         .subscribe
                         { url -> startActivity(ViewMemeActivity.createIntent(this, url)) },
-                generate_button
-                        .clicks()
+                meme_name.textChangeEvents()
+                        .subscribe { event ->
+                            when (event.text().isNullOrEmpty()) {
+                                true -> meme_name.hint = "meme name"
+                                else -> meme_name.hint = ""
+                            }
+                        },
+                top_text.textChangeEvents()
+                        .subscribe { event ->
+                            when (event.text().isNullOrEmpty()) {
+                                true -> top_text.hint = "top text"
+                                else -> top_text.hint = ""
+                            }
+                        },
+                bottom_text.textChangeEvents()
+                        .subscribe { event ->
+                            when (event.text().isNullOrEmpty()) {
+                                true -> bottom_text.hint = "bottom text"
+                                else -> bottom_text.hint = ""
+                            }
+                        },
+                generate_button.clicks()
                         .map { _ -> "http://apimeme.com/meme?meme=${meme_name.text}&top=${top_text.text}&bottom=${bottom_text.text}".replace(" ", "+") }
                         .subscribe(viewModel::onGenerateButtonClicked))
     }
