@@ -33,8 +33,7 @@ class GenerateMemeActivity : AppCompatActivity() {
 
         disposables.addAll(
                 viewModel.showViewMemeScreen()
-                        .subscribe
-                        { url -> startActivity(ViewMemeActivity.createIntent(this, url)) },
+                        .subscribe { url -> startActivity(ViewMemeActivity.createIntent(this, url)) },
                 top_text.textChangeEvents()
                         .subscribe { event ->
                             when (event.text().isNullOrEmpty()) {
