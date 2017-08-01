@@ -9,7 +9,7 @@ import io.reactivex.subjects.PublishSubject
  */
 class GenerateMemeViewModel : ViewModel() {
 
-    val showViewMemeScreenSubject: PublishSubject<String> = PublishSubject.create()
+    private val showViewMemeScreenSubject: PublishSubject<String> = PublishSubject.create()
 
     fun onGenerateButtonClicked(url: String) = showViewMemeScreenSubject.onNext(url)
 
