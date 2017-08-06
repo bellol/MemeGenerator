@@ -1,13 +1,16 @@
 package com.bellng.memegenerator.ui.viewmeme
 
+import android.Manifest
 import android.arch.lifecycle.ViewModelProviders
 import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
+import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
 import android.util.DisplayMetrics
 import android.view.View
@@ -68,12 +71,15 @@ class ViewMemeActivity : AppCompatActivity() {
         super.onResume()
 
         disposables.addAll(
-                viewModel.startShareImage()
-                        .subscribe { shareImage() },
                 share_button.clicks()
-                        .subscribe { viewModel.onShareButtonClicked() }
-        )
+                        .map { _ -> ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED }
+                        .subscribe(viewModel::onShareButtonClicked))
 
+        disposables.addAll(
+                viewModel.startShareImageWithPermissionRequest()
+                        .subscribe { shareImageWithPermissionRequest() },
+                viewModel.startShareImage()
+                        .subscribe { shareImage() })
     }
 
     override fun onPause() {
@@ -81,7 +87,7 @@ class ViewMemeActivity : AppCompatActivity() {
         disposables.clear()
     }
 
-    fun shareImage() {
+    private fun shareImage() {
         if (meme_image.width == 0 || meme_image.height == 0) return
 
         val intent = Intent(Intent.ACTION_SEND)
@@ -105,5 +111,9 @@ class ViewMemeActivity : AppCompatActivity() {
 
         val path = MediaStore.Images.Media.insertImage(contentResolver, bitmap, "meme", null)
         return Uri.parse(path)
+    }
+
+    private fun shareImageWithPermissionRequest() {
+
     }
 }

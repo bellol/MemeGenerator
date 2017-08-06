@@ -9,9 +9,19 @@ import io.reactivex.subjects.PublishSubject
  */
 class ViewMemeViewModel : ViewModel() {
 
-    private val shareImageSubject = PublishSubject.create<Boolean>()
+    private val shareImageSubject = PublishSubject.create<Unit>()
+    private val shareImageWithPermissionsSubject = PublishSubject.create<Unit>()
 
-    fun startShareImage(): Observable<Boolean> = shareImageSubject
+    fun startShareImage(): Observable<Unit> = shareImageSubject
 
-    fun onShareButtonClicked() = shareImageSubject.onNext(true)
+    fun startShareImageWithPermissionRequest(): Observable<Unit> = shareImageWithPermissionsSubject
+
+    fun onShareButtonClicked(permissionGranted: Boolean) {
+        when (permissionGranted) {
+            true -> shareImageSubject.onNext(Unit)
+            else -> shareImageWithPermissionsSubject.onNext(Unit)
+        }
+
+    }
+
 }
