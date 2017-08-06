@@ -49,24 +49,26 @@ class GenerateMemeActivity : AppCompatActivity() {
                             }
                         },
                 generate_button.clicks()
-                        .map { _ ->
-                            var url = "http://apimeme.com/meme?meme=${searchable_spinner.selectedItem}"
-
-                            if (top_text.text.toString().isNotEmpty()) {
-                                url += "&top=${top_text.text}"
-                            }
-
-                            if (bottom_text.text.toString().isNotEmpty()) {
-                                url += "&bottom=${bottom_text.text}"
-                            }
-
-                            url.replace(" ", "+")
-                        }
+                        .map { _ -> generateUrl() }
                         .subscribe(viewModel::onGenerateButtonClicked))
     }
 
     override fun onPause() {
         super.onPause()
         disposables.clear()
+    }
+
+    private fun generateUrl(): String {
+        var url = "http://apimeme.com/meme?meme=${searchable_spinner.selectedItem}"
+
+        if (top_text.text.toString().isNotEmpty()) {
+            url += "&top=${top_text.text}"
+        }
+
+        if (bottom_text.text.toString().isNotEmpty()) {
+            url += "&bottom=${bottom_text.text}"
+        }
+
+        return url.replace(" ", "+")
     }
 }
